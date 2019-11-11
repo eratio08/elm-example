@@ -72,7 +72,7 @@ backendUrl =
 getUser : Cmd Msg
 getUser =
     Http.get
-        { url = backendUrl ++ "/users"
+        { url = backendUrl ++ "/testusers"
         , expect = Http.expectJson GotUser userDecoder
         }
 

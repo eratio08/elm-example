@@ -6107,7 +6107,7 @@ var $author$project$Main$userDecoder = A3(
 var $author$project$Main$getUser = $elm$http$Http$get(
 	{
 		expect: A2($elm$http$Http$expectJson, $author$project$Main$GotUser, $author$project$Main$userDecoder),
-		url: $author$project$Main$backendUrl + '/users'
+		url: $author$project$Main$backendUrl + '/testusers'
 	});
 var $author$project$Main$update = F2(
 	function (msg, model) {
