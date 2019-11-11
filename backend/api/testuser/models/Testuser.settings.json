@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "testusers",
+  "info": {
+    "name": "testuser",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
